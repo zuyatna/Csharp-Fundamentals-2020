@@ -7,6 +7,29 @@ namespace Gradebook.Tests
     public class TypeTests
     {
         [Fact]
+        public void PassByValue()
+        {
+            //Given
+            var x = GetInt();
+        
+            //When
+            SetInt(ref x);
+        
+            //Then
+            Assert.Equal(42, x);
+        }
+
+        private void SetInt(ref int z)
+        {
+            z = 42;
+        }
+
+        private int GetInt()
+        {
+            return 3;
+        }
+
+        [Fact]
         public void GetBookObjects()
         {
             // arrange
