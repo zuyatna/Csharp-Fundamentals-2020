@@ -35,12 +35,13 @@ namespace GradeBook
                 finally
                 {
                     System.Console.WriteLine("**");
-                }
-
-                // TODO: 65 - Overloading Methods        
+                }                     
             }                
 
             var statistics = book.ShowStatistics();
+            book.Name = "";
+
+            System.Console.WriteLine($"For the book named {book.Name}");
             System.Console.WriteLine($"The average grade is {statistics.Average:N2}"); // N2 = dua nol dibelakang koma
             System.Console.WriteLine($"The highest grade is {statistics.High}");
             System.Console.WriteLine($"The lowest grade is {statistics.Low}");

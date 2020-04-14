@@ -5,6 +5,28 @@ namespace GradeBook
 {
     public class Book
     {
+        private List<double> grades;
+        
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                if (!String.IsNullOrEmpty(value))
+                {
+                    name = value;
+                }
+            }
+        }
+
+        private string name;
+
+        readonly string category = "science";
+        // TODO: 8 - Building types: 68 - Defining readonly members
+
         public Book(string name)
         {
             grades = new List<double>();
@@ -89,9 +111,6 @@ namespace GradeBook
             }
 
             return result;           
-        }
-
-        private List<double> grades;
-        public string Name;
+        }        
     }
 }
