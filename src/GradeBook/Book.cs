@@ -7,25 +7,11 @@ namespace GradeBook
     {
         private List<double> grades;
         
-        public string Name
-        {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                if (!String.IsNullOrEmpty(value))
-                {
-                    name = value;
-                }
-            }
-        }
+        public string Name { get; private set; }
 
         private string name;
 
-        readonly string category = "science";
-        // TODO: 8 - Building types: 68 - Defining readonly members
+        readonly string category = "science";        
 
         public Book(string name)
         {

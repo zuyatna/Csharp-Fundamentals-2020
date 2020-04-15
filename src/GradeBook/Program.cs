@@ -38,8 +38,7 @@ namespace GradeBook
                 }                     
             }                
 
-            var statistics = book.ShowStatistics();
-            book.Name = "";
+            var statistics = book.ShowStatistics();            
 
             System.Console.WriteLine($"For the book named {book.Name}");
             System.Console.WriteLine($"The average grade is {statistics.Average:N2}"); // N2 = dua nol dibelakang koma
