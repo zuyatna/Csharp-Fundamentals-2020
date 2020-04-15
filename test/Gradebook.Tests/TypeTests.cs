@@ -9,21 +9,34 @@ namespace Gradebook.Tests
     public class TypeTests
     {
 
+        int count = 0;
+
         [Fact]
         public void WriteLogDelegateCanPointToMethod()
         {
             //Given
-            WriteLogDelegate log;
-            log = ReturnMessage;
+            WriteLogDelegate log = ReturnMessage;
+            log += ReturnMessage;
+            log += IncrementCount;
 
             //When
             var result = log("Hello!");
 
             //Then
-            Assert.Equal("Hello!", result);
+            Assert.Equal(3, count);
         }
 
-        string ReturnMessage(string messgae) => messgae;
+        string IncrementCount(string messgae)
+        {
+            count++;
+            return messgae.ToLower();
+        }
+
+        string ReturnMessage(string messgae)
+        {
+            count++;
+            return messgae;
+        }
 
         [Fact]
         public void PassByValue()
