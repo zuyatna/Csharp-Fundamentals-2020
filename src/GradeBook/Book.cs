@@ -5,20 +5,30 @@ namespace GradeBook
 {
     public delegate void GradeAddedDelegate(object sender, EventArgs args);
 
-    public class Book
+    public class NamedObject
+    {
+        public NamedObject(string name)
+        {
+            Name = name;
+        }
+
+        public string Name { get; set; }
+    }
+
+    public class Book : NamedObject
     {
         private List<double> grades;
         
-        public string Name { get; private set; }
+        public string GetName { get; private set; }
 
         private string name;
 
-        readonly string category = "science";        
+        private readonly string category = "science";        
 
-        public Book(string name)
+        public Book(string name) : base(name)
         {
             grades = new List<double>();
-            Name = name;
+            GetName = name;
         }
 
         public void AddLetterGrade(char letter)
