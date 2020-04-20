@@ -83,9 +83,9 @@ namespace Gradebook.Tests
             Assert.True(Object.ReferenceEquals(book1, book2));
         }
 
-        private Book GetBook(string name)
+        private InMemoryBook GetBook(string name)
         {
-            return new Book(name);
+            return new InMemoryBook(name);
         }
     }
 }
