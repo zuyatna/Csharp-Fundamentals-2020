@@ -13,7 +13,7 @@ namespace GradeBook
 
             EnterGrades(book);
 
-            var statistics = book.ShowStatistics();
+            var statistics = book.GetStatistics();
 
             System.Console.WriteLine($"For the book named {book.GetName}");
             System.Console.WriteLine($"The average grade is {statistics.Average:N2}"); // N2 = dua nol dibelakang koma
@@ -22,7 +22,7 @@ namespace GradeBook
             System.Console.WriteLine($"The letter grade is {statistics.Letter}");
         }
 
-        private static void EnterGrades(Book book)
+        private static void EnterGrades(IBook book)
         {
             while (true)
             {
