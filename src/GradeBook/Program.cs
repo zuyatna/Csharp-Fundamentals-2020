@@ -21,9 +21,7 @@ namespace GradeBook
             System.Console.WriteLine($"The letter grade is {statistics.Letter}");
         }
 
-#pragma warning disable CS8632 // The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
         private static void EnterGrades(IBook? book)
-#pragma warning restore CS8632 // The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
         {
             while (true)
             {

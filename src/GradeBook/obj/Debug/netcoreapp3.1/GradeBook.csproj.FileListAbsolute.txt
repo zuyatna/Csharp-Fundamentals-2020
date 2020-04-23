@@ -23,3 +23,16 @@ E:\Projects_C#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.Assembl
 E:\Projects_C#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
 E:\Projects_C#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
 E:\Projects_C#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.exe
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.deps.json
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.json
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csproj.CoreCompileInputs.cache
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
+E:\Projects_C#\Suyatna\01-Csharp-Fundamentals\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache

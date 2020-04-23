@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects_C#\\gradebook\\src\\GradeBook\\GradeBook.csproj": {}
+    "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\src\\GradeBook\\GradeBook.csproj": {}
   },
   "projects": {
-    "E:\\Projects_C#\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects_C#\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "E:\\Projects_C#\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectPath": "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\Suyatna\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects_C#\\gradebook\\src\\GradeBook\\obj\\",
+        "outputPath": "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suyatna\\AppData\\Roaming\\NuGet\\NuGet.Config",
