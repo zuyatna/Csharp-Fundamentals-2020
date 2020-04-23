@@ -23,19 +23,19 @@ namespace GradeBook
                 switch (Average)
                 {
                     case var d when d >= 90.0:
-                        return 'A';                        
+                        return 'A';
 
                     case var d when d >= 80.0:
-                        return 'B';                        
+                        return 'B';
 
                     case var d when d >= 70.0:
-                        return 'C';                        
+                        return 'C';
 
                     case var d when d >= 60.0:
-                        return 'D';                        
+                        return 'D';
 
                     default:
-                        return 'E';                        
+                        return 'E';
                 }
             }
         }

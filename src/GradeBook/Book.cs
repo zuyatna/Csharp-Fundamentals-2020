@@ -42,14 +42,14 @@ namespace GradeBook
     {
         public DiskBook(string name) : base(name)
         {
-            
+
         }
 
         public override event GradeAddedDelegate GradeAdded;
 
         public override void AddGrade(double grade)
         {
-            using(var writer = File.AppendText($"{Name}.txt"))
+            using (var writer = File.AppendText($"{Name}.txt"))
             {
                 writer.WriteLine(grade);
 
@@ -57,20 +57,20 @@ namespace GradeBook
                 {
                     GradeAdded(this, new EventArgs());
                 }
-            }            
+            }
         }
 
         public override Statistics GetStatistics()
         {
             var result = new Statistics();
 
-            using(var reader = File.OpenText($"{Name}.txt"))
+            using (var reader = File.OpenText($"{Name}.txt"))
             {
                 var line = reader.ReadLine();
 
                 while (line != null)
                 {
-                    var number = double.Parse(line);                    
+                    var number = double.Parse(line);
                     result.Add(number);
                     line = reader.ReadLine();
                 }
@@ -83,12 +83,8 @@ namespace GradeBook
     public class InMemoryBook : Book
     {
         private List<double> grades;
-        
+
         public string GetName { get; private set; }
-
-        private string name;
-
-        private readonly string category = "science";        
 
         public InMemoryBook(string name) : base(name)
         {
@@ -135,7 +131,7 @@ namespace GradeBook
             }
             else
             {
-                throw new ArgumentException($"Invalid {nameof(grade)}");                
+                throw new ArgumentException($"Invalid {nameof(grade)}");
             }
         }
 
@@ -143,14 +139,14 @@ namespace GradeBook
 
         public override Statistics GetStatistics()
         {
-            var result = new Statistics();            
+            var result = new Statistics();
 
             for (var index = 0; index < grades.Count; index += 1)
             {
                 result.Add(grades[index]);
-            }                    
+            }
 
-            return result;           
-        }        
+            return result;
+        }
     }
 }

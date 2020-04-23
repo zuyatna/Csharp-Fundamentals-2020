@@ -1,4 +1,3 @@
-using System;
 using GradeBook;
 using Xunit;
 

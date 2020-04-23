@@ -1,10 +1,10 @@
-using System;
 using GradeBook;
+using System;
 using Xunit;
 
 namespace Gradebook.Tests
 {
-    public delegate string WriteLogDelegate(string lowMessage);    
+    public delegate string WriteLogDelegate(string lowMessage);
 
     public class TypeTests
     {
@@ -43,10 +43,10 @@ namespace Gradebook.Tests
         {
             //Given
             var x = GetInt();
-        
+
             //When
             SetInt(ref x);
-        
+
             //Then
             Assert.Equal(42, x);
         }

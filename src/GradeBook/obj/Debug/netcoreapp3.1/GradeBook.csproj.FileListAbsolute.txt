@@ -17,7 +17,6 @@ E:\Projects_C#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtime
 E:\Projects_C#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
 E:\Projects_C#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
 E:\Projects_C#\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
-E:\Projects_C#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
 E:\Projects_C#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csproj.CoreCompileInputs.cache
 E:\Projects_C#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
 E:\Projects_C#\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
