@@ -3526,11 +3526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Suyatna\\Source\\Repos\\Suyatna\\01-Csharp-Fundamentals\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
       "projectName": "Gradebook.Tests",
-      "projectPath": "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
+      "projectPath": "C:\\Users\\Suyatna\\Source\\Repos\\Suyatna\\01-Csharp-Fundamentals\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
       "packagesPath": "C:\\Users\\Suyatna\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\test\\Gradebook.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Suyatna\\Source\\Repos\\Suyatna\\01-Csharp-Fundamentals\\test\\Gradebook.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Suyatna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3546,8 +3546,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\src\\GradeBook\\GradeBook.csproj": {
-              "projectPath": "E:\\Projects_C#\\Suyatna\\01-Csharp-Fundamentals\\src\\GradeBook\\GradeBook.csproj"
+            "C:\\Users\\Suyatna\\Source\\Repos\\Suyatna\\01-Csharp-Fundamentals\\src\\GradeBook\\GradeBook.csproj": {
+              "projectPath": "C:\\Users\\Suyatna\\Source\\Repos\\Suyatna\\01-Csharp-Fundamentals\\src\\GradeBook\\GradeBook.csproj"
             }
           }
         }
