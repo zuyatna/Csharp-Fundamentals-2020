@@ -1,0 +1,14 @@
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\b\Gradebook.Tests\Debug\netcoreapp3.1\GradeBook.exe
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\b\Gradebook.Tests\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\b\Gradebook.Tests\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\b\Gradebook.Tests\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\b\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.deps.json
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\b\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.runtimeconfig.json
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\b\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.runtimeconfig.dev.json
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\b\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.dll
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\i\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.csprojAssemblyReference.cache
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\i\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.AssemblyInfoInputs.cache
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\i\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.AssemblyInfo.cs
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\i\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.csproj.CopyComplete
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\i\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.dll
+E:\Projects_C#\gradebook\.vs\gradebook\v16\lut\0\i\Gradebook.Tests\Debug\netcoreapp3.1\Gradebook.Tests.genruntimeconfig.cache
